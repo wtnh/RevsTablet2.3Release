@@ -1,4 +1,4 @@
-# RevsTabletV2.2
+# RevsTabletV2.3Release
 This is an Android app for volunteers at the Revs Institiute for Automotive Research, a non-profit museum
 housing a collection of rare and antique vehicles located in Naples, Florida USA.
 The app is configured with a JSON file located at https://github.com/wtnh/repo/blob/master/revs_tablet_config1.json
