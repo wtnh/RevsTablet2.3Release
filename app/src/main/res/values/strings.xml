@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Revs CarPad</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="srch">Search</string>
+
+    <string name="language">language</string>
+    <string name="sort_cars">Sort Cars</string>
+    <string name="sort_year">Sort Cars by Year</string>
+    <string name="sort_make">Sort Cars by Make</string>
+    <string name="sort_station">Sort Cars by Station</string>
+    <string name="carthumbnails">CarThumbnails</string>
+    <string name="car_facts">Car Facts:</string>
+    <string name="fact1">Fact1</string>
+    <string name="imageviewarrowdown">ImageViewArrowDown</string>
+    <string name="fact2">Fact2</string>
+    <string name="fact3">Fact3</string>
+    <string name="fact4">Fact4</string>
+    <string name="fact5">Fact5</string>
+    <string name="fact6">Fact6</string>
+    <string name="fact7">Fact7</string>
+    <string name="fact8">Fact8</string>
+    <string name="view_this_car_s_page_on_the_revs_website">View this car\'s page on the revs website</string>
+    <string name="dash_and_engine">Dash and Engine</string>
+    <string name="articles">Articles</string>
+    <string name="more_photos">More Photos</string>
+
+    <string name="device_admin_enabled">Device Admin enabled</string>
+    <string name="device_admin_warning">Warning: Device Admin is going to be disabled.</string>
+    <string name="device_admin_disabled">Device Admin disabled</string>
+    <string name="kiosk_mode_enabled">Kiosk Mode enabled</string>
+    <string name="kiosk_mode_disabled">Kiosk Mode disabled</string>
+    <string name="bullet">•</string>
+
+
+</resources>

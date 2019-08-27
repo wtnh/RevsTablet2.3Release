@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Aug 20 14:24:10 EDT 2019
+0.baseType=DIRECTORY
+0.base=/Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/build/intermediates/merged_assets/debug/out
+0.path=config.json
+0.set=ASSET
+count=1

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_list_item_array">
+        <item>Sort Cars/Scroll To Station</item>
+        <item>Sort Cars by Station 1>10</item>
+        <item>Sort Cars by Station 10>1</item>
+        <item>Sort Cars by Make A-Z</item>
+        <item>Sort Cars by Year Old>New</item>
+        <item>Sort Cars by Year New>Old</item>
+        <item>Scroll To:</item>
+        <item>  Station 1</item>
+        <item>  Station 2</item>
+        <item>  Station 3</item>
+        <item>  Station 4</item>
+        <item>  Station 5</item>
+        <item>  Station 6</item>
+        <item>  Station 7</item>
+        <item>  Station 8</item>
+        <item>  Station 9</item>
+        <item>  Station 10</item>
+
+
+    </string-array>
+</resources>
+
+
+

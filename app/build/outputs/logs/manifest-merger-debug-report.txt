@@ -1,0 +1,268 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/whit/.gradle/caches/transforms-2/files-2.1/81dea78811a5acff3d54f99c5e61a98d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/9fed7f803699ce775a08fb862e22e352/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/05ba19e777285d4a195cbe17923f6785/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/whit/.gradle/caches/transforms-2/files-2.1/5becc7c650e5830d466c4716d6e57fe4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /Users/whit/.gradle/caches/transforms-2/files-2.1/3aac66544b2ffce6a6a2e42ffafdb78e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] /Users/whit/.gradle/caches/transforms-2/files-2.1/b5d62a4e10aaa671e27b01a06bf762fe/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/187c50b055a8f0352df15fe4912b58f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/0a9b045ec88f89ac0acae78a65f89a81/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f42377ec40ef1165d7c970d09bc41b0a/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/eb7e03db570c711c87dbf340207201d6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/6693677fba53c26284f726943f8720fd/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/75121edbfcf998b696b5b4fd69dfa22b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/4c12a3f0da885be8a76a2349f1f48c8a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/whit/.gradle/caches/transforms-2/files-2.1/dedbd01c007a948983072b2cd4cc0fcf/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/8a660f58a9b55db0b78bc97d7959d340/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/8335173211f5221baaa930ca3250b347/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/352eb244d75326a9ece7c6b9ec7f6d16/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/3f565234caf76101198b6b9552248c5b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/e92a8686b62fc07658029b20ddf0932d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f424df739acd0715e01c2817c1994f26/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/1c6a0bfb929c916d10e3cca88d0c758c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0-rc02] /Users/whit/.gradle/caches/transforms-2/files-2.1/88f4cd919118c68d3c6e4eaddd1f53a0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/fe6c54a734cd0f4bdb925bfd85f78b58/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/ad3a9f827a49e6302a5fa0a13ad0367f/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/0f828e52ab25633652a65213ebf2c297/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/5cdb3cc31ae99bb29d47b4139bc3a04d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/6e2fcf0d3628950bfbb94947303cea02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/3730c62ba6f8befb076c2d26af4ed5a6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/c8675ddf108362c200c6383351ae09f0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/a4938801c0d75977dfaa5d4ab47aef81/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/4ac9a53b79144833bbcf4b636a4c5de6/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+	package
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:4:5-43
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:1-77:12
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:10:22-69
+application
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:11:5-73:19
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/whit/.gradle/caches/transforms-2/files-2.1/81dea78811a5acff3d54f99c5e61a98d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/whit/.gradle/caches/transforms-2/files-2.1/81dea78811a5acff3d54f99c5e61a98d/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/whit/.gradle/caches/transforms-2/files-2.1/5becc7c650e5830d466c4716d6e57fe4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/whit/.gradle/caches/transforms-2/files-2.1/5becc7c650e5830d466c4716d6e57fe4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/0a9b045ec88f89ac0acae78a65f89a81/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/0a9b045ec88f89ac0acae78a65f89a81/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f42377ec40ef1165d7c970d09bc41b0a/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f42377ec40ef1165d7c970d09bc41b0a/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0-rc02] /Users/whit/.gradle/caches/transforms-2/files-2.1/88f4cd919118c68d3c6e4eaddd1f53a0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc02] /Users/whit/.gradle/caches/transforms-2/files-2.1/88f4cd919118c68d3c6e4eaddd1f53a0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/fe6c54a734cd0f4bdb925bfd85f78b58/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/fe6c54a734cd0f4bdb925bfd85f78b58/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/ad3a9f827a49e6302a5fa0a13ad0367f/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/ad3a9f827a49e6302a5fa0a13ad0367f/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc02] /Users/whit/.gradle/caches/transforms-2/files-2.1/88f4cd919118c68d3c6e4eaddd1f53a0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:19:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:17:9-43
+	android:testOnly
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:23:9-33
+	tools:ignore
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:25:9-48
+	android:roundIcon
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:21:9-54
+	android:largeHeap
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:16:9-36
+	android:icon
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:13:9-70
+activity#com.turner.whit.revstabletv2.MainActivity
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:28:9-38:20
+	android:label
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:30:13-45
+	android:configChanges
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:32:13-59
+	android:theme
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:31:13-71
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:29:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:36:27-74
+activity#com.turner.whit.revstabletv2.WebActivity5
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:41:9-46:20
+	android:parentActivityName
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:43:13-55
+	android:configChanges
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:45:13-59
+	android:theme
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:44:13-71
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:42:13-41
+activity#com.turner.whit.revstabletv2.GalleryActivity
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:47:9-49:62
+	android:parentActivityName
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:48:13-55
+	android:configChanges
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:49:13-59
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:47:19-50
+receiver#com.turner.whit.revstabletv2.AdminReceiver
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:51:9-66:20
+	android:label
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:53:13-45
+	android:permission
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:54:13-70
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:52:13-70
+meta-data#android.app.device_admin
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:55:13-57:56
+	android:resource
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:57:17-53
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:56:17-56
+intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED+action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:59:13-65:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:60:17-82
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:60:25-79
+category#android.intent.category.HOME
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:62:17-73
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:62:27-70
+category#android.intent.category.DEFAULT
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:63:17-76
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:63:27-73
+receiver#com.turner.whit.revstabletv2.BootReceiver
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:67:9-71:20
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:67:19-47
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:68:13-70:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:69:17-78
+	android:name
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml:69:25-76
+uses-sdk
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/whit/.gradle/caches/transforms-2/files-2.1/81dea78811a5acff3d54f99c5e61a98d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha09] /Users/whit/.gradle/caches/transforms-2/files-2.1/81dea78811a5acff3d54f99c5e61a98d/AndroidManifest.xml:20:5-44
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/9fed7f803699ce775a08fb862e22e352/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/9fed7f803699ce775a08fb862e22e352/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/05ba19e777285d4a195cbe17923f6785/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/05ba19e777285d4a195cbe17923f6785/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/whit/.gradle/caches/transforms-2/files-2.1/5becc7c650e5830d466c4716d6e57fe4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/whit/.gradle/caches/transforms-2/files-2.1/5becc7c650e5830d466c4716d6e57fe4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /Users/whit/.gradle/caches/transforms-2/files-2.1/3aac66544b2ffce6a6a2e42ffafdb78e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] /Users/whit/.gradle/caches/transforms-2/files-2.1/3aac66544b2ffce6a6a2e42ffafdb78e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] /Users/whit/.gradle/caches/transforms-2/files-2.1/b5d62a4e10aaa671e27b01a06bf762fe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta03] /Users/whit/.gradle/caches/transforms-2/files-2.1/b5d62a4e10aaa671e27b01a06bf762fe/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/187c50b055a8f0352df15fe4912b58f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/187c50b055a8f0352df15fe4912b58f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/0a9b045ec88f89ac0acae78a65f89a81/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/0a9b045ec88f89ac0acae78a65f89a81/AndroidManifest.xml:7:5-43
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f42377ec40ef1165d7c970d09bc41b0a/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f42377ec40ef1165d7c970d09bc41b0a/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/eb7e03db570c711c87dbf340207201d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/eb7e03db570c711c87dbf340207201d6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/6693677fba53c26284f726943f8720fd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/6693677fba53c26284f726943f8720fd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/75121edbfcf998b696b5b4fd69dfa22b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/75121edbfcf998b696b5b4fd69dfa22b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/4c12a3f0da885be8a76a2349f1f48c8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/4c12a3f0da885be8a76a2349f1f48c8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/whit/.gradle/caches/transforms-2/files-2.1/dedbd01c007a948983072b2cd4cc0fcf/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/whit/.gradle/caches/transforms-2/files-2.1/dedbd01c007a948983072b2cd4cc0fcf/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/8a660f58a9b55db0b78bc97d7959d340/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/whit/.gradle/caches/transforms-2/files-2.1/8a660f58a9b55db0b78bc97d7959d340/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/8335173211f5221baaa930ca3250b347/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/8335173211f5221baaa930ca3250b347/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/352eb244d75326a9ece7c6b9ec7f6d16/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/352eb244d75326a9ece7c6b9ec7f6d16/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/3f565234caf76101198b6b9552248c5b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/3f565234caf76101198b6b9552248c5b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/e92a8686b62fc07658029b20ddf0932d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/e92a8686b62fc07658029b20ddf0932d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f424df739acd0715e01c2817c1994f26/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/f424df739acd0715e01c2817c1994f26/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/1c6a0bfb929c916d10e3cca88d0c758c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/1c6a0bfb929c916d10e3cca88d0c758c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc02] /Users/whit/.gradle/caches/transforms-2/files-2.1/88f4cd919118c68d3c6e4eaddd1f53a0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc02] /Users/whit/.gradle/caches/transforms-2/files-2.1/88f4cd919118c68d3c6e4eaddd1f53a0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/fe6c54a734cd0f4bdb925bfd85f78b58/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/fe6c54a734cd0f4bdb925bfd85f78b58/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/ad3a9f827a49e6302a5fa0a13ad0367f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/ad3a9f827a49e6302a5fa0a13ad0367f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/0f828e52ab25633652a65213ebf2c297/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/0f828e52ab25633652a65213ebf2c297/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/5cdb3cc31ae99bb29d47b4139bc3a04d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/5cdb3cc31ae99bb29d47b4139bc3a04d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/6e2fcf0d3628950bfbb94947303cea02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] /Users/whit/.gradle/caches/transforms-2/files-2.1/6e2fcf0d3628950bfbb94947303cea02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/3730c62ba6f8befb076c2d26af4ed5a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/3730c62ba6f8befb076c2d26af4ed5a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/c8675ddf108362c200c6383351ae09f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/c8675ddf108362c200c6383351ae09f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/a4938801c0d75977dfaa5d4ab47aef81/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/a4938801c0d75977dfaa5d4ab47aef81/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/4ac9a53b79144833bbcf4b636a4c5de6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/whit/.gradle/caches/transforms-2/files-2.1/4ac9a53b79144833bbcf4b636a4c5de6/AndroidManifest.xml:20:5-44
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+		ADDED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/src/main/AndroidManifest.xml

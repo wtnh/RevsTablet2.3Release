@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Mon Aug 26 16:06:40 EDT 2019
+1.base=/Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/build/intermediates/dex/release/mergeDexRelease/out
+2.path=config.json
+0.baseType=DIRECTORY
+2.base=/Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/build/intermediates/merged_assets/release/out
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=About CarPad.html
+0.set=ASSET
+0.base=/Users/whit/AndroidStudioProjects/RevsTabletV2.3/app/build/intermediates/merged_assets/release/out
+2.baseType=DIRECTORY
+1.path=classes.dex

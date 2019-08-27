@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarSize="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageViewThumb"
+                    android:layout_width="125dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:contentDescription="@string/carthumbnails"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:background="#812518"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageViewThumb"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewMake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="#812518"
+                    android:gravity="center_vertical"
+                    android:padding="2dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textViewYear"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textViewModel"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:background="#812518"
+                    android:gravity="center_vertical"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="0dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageViewArrow"
+                    app:layout_constraintStart_toEndOf="@+id/textViewMake"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageViewArrow"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="#812518"
+                    android:contentDescription="@string/imageviewarrowdown"
+                    android:src="@drawable/ic_expand_more_white_12dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textViewModel"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <!--
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Description: "
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+                -->
+
+                <TextView
+                    android:id="@+id/textViewDescr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="0dp"
+                    android:text="@string/car_facts"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+         <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+
+
+                 <TextView
+                    android:id="@+id/textViewFact1"
+                    android:text="@string/fact1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </TableRow>
+
+
+             <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+                <TextView
+                    android:id="@+id/textViewFact2"
+                    android:text="@string/fact2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewFact3"
+                    android:text="@string/fact3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewFact4"
+                    android:text="@string/fact4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewFact5"
+                    android:text="@string/fact5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewFact6"
+                    android:text="@string/fact6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewFact7"
+                    android:text="@string/fact7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="@string/bullet"
+                     android:textSize="25sp"
+                     android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/textViewFact8"
+                    android:text="@string/fact8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="30dp"
+                    android:paddingBottom="8dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"/>
+             </TableRow>
+
+            </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1,2">
+
+                    <TableRow>
+
+                        <Button
+                            android:id="@+id/Button4"
+                            style="@android:style/Widget.Material.Button.Inset"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_span="1"
+                            android:layout_weight="1"
+                            android:minHeight="50dp"
+                            android:text="@string/view_this_car_s_page_on_the_revs_website"
+                            android:textSize="14sp" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <Button
+                            android:id="@+id/Button1"
+                            style="@android:style/Widget.Material.Button.Inset"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_span="1"
+                            android:layout_weight="1"
+                            android:text="@string/dash_and_engine"
+                            tools:minHeight="50dp" />
+
+                        <Button
+                            android:id="@+id/Button2"
+                            style="@android:style/Widget.Material.Button.Inset"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_span="1"
+                            android:layout_weight="1"
+                            android:minHeight="50dp"
+                            android:text="@string/articles" />
+
+                        <Button
+                            android:id="@+id/Button3"
+                            style="@android:style/Widget.Material.Button.Inset"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_span="1"
+                            android:layout_weight="1"
+                            android:minHeight="50dp"
+                            android:text="@string/more_photos" />
+
+                        </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
